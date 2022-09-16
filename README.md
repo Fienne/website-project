@@ -1,4 +1,4 @@
-## Website Project wwith React
+## Website Project with React
 
 #### Example:
  
