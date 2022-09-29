@@ -1,0 +1,23 @@
+.hero-image-trained{
+    margin-left: 25px;
+    width: 100%;
+}
+
+.testimonials{
+    height: 15rem;
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    color: white;
+    align-items: center;
+}
+
+.ellipse{
+    margin-top: 10px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer{
+    margin-top: 3rem;
+}

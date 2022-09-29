@@ -1,0 +1,22 @@
+.readmore{
+    color:var(--primary-color)
+}
+
+a{
+    color: var(--primary-color);
+}
+
+.register-now{
+    margin-top: 20px;
+}
+
+
+container{
+    width: 300;
+    margin: "0 auto";
+  }
+  card {
+    background-color: "#B7E0FE";
+    border-radius: 55px;
+    padding: 3rem;
+  }

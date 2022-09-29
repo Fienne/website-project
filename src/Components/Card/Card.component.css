@@ -1,0 +1,4 @@
+.paragraph{
+    word-break: break-all;
+    display: inline-block;
+}
