@@ -10,6 +10,7 @@ import Image from "../../Components/Image/Image";
 import ReadMore from "../../Components/ReadMore/ReadMore.component";
 import ExpendableText from "../../Components/ReadMore/ReadMore.component";
 import CardComponent from "../../Components/Card/Card.components";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -67,7 +68,7 @@ const Home = () => {
 
         <h3 className="mt-5">Get Trained</h3>
 
-        <Row>
+        {/* <Row>
           <CardComponent
             svg={
               <g data-name="programming-web-coding">
@@ -198,7 +199,7 @@ const Home = () => {
         using WordPress."
         />
           
-        </Row>
+        </Row> */}
 
         <div className="mt-5">
           <div className="d-flex justify-content-center">
@@ -253,6 +254,8 @@ const Home = () => {
               <img src="./Images/dg3.jpeg" />
             </Col>
           </Row>
+          <h2 className="mt-5">See what our students have to say about us</h2>
+          <Testimonial />
         </div>
       </Container>
     </div>

@@ -7,6 +7,7 @@ import Footer from "../../Components/Footer/Footer";
 import RegButton from "../../Components/Button/RegButton";
 import ReadMore from "../../Components/ReadMore/ReadMore.component";
 import CardComponent from "../../Components/Card/Card.components";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const GetTrained = () => {
   return (
@@ -175,7 +176,7 @@ const GetTrained = () => {
         </Row>
 
         <h4 className="mt-5">Testimonials</h4>
-        <Row className="testimonials">
+        {/* <Row className="testimonials">
           <Col className="">
             <img src="./Images/Ellipse 3.png" className="ellipse" />
             <p>
@@ -197,7 +198,8 @@ const GetTrained = () => {
               Development bootcamp helped me start a career in tech
             </p>
           </Col>
-        </Row>
+        </Row> */}
+        <Testimonial />
       </Container>
     </div>
   );
