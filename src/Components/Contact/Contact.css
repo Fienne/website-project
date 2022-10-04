@@ -1,0 +1,11 @@
+.contact-header{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  padding: 80px;
+  align-items: center;
+}
+
+.contact-heading{
+justify-content: left;
+}

@@ -14,7 +14,7 @@ import WebAppDev from "../../Screens/WebAppDev/WebAppDev";
 import BrandIdentity from "../../Screens/BrandIdentity/BrandIdentity";
 import SEOServices from "../../Screens/SEOServices/SEOServices";
 import AboutUs from "../../Screens/AboutUs/AboutUs";
-import Contactform from "../Contact/Contact";
+import ContactForm from "../Contact/ContactForm";
 
 const Navigation = () => {
   return (
@@ -74,7 +74,7 @@ const Navigation = () => {
         <Route element={<BrandIdentity />}  path="/brand-identity" />
         <Route element={<SEOServices />} path="/seo-services" />
         <Route element={<AboutUs />} path="/about-us" />
-        <Route element={<Contactform/>} path="/contact" />
+        <Route element={<ContactForm/>} path="/contact" />
       </Routes>
     </BrowserRouter>
   );
