@@ -6,7 +6,8 @@ const data = {
   rows: [
     {
       title: "How does Email Marketing Work?",
-      content: "We primarily leverage GetResponse’s email marketing and automation tools to manage email marketing and lead nurturing campaigns for our clients.",
+      content:
+        "We primarily leverage GetResponse’s email marketing and automation tools to manage email marketing and lead nurturing campaigns for our clients.",
     },
     {
       title: "Do you offer marketing strategy and creation?",
@@ -15,11 +16,13 @@ const data = {
     },
     {
       title: "How does a paid search campaign work?",
-      content: "We primarily leverage on Powerful link-building campaign (Source having high page rank and domain authority) and Promotion of traffic-driving & high-search volume keywords.",
+      content:
+        "We primarily leverage on Powerful link-building campaign (Source having high page rank and domain authority) and Promotion of traffic-driving & high-search volume keywords.",
     },
     {
       title: "How do I pay for agency fees?",
-      content: "Contact Us Directly and we will give you a quote based on your needs",
+      content:
+        "Contact Us Directly and we will give you a quote based on your needs",
     },
   ],
 };
@@ -33,9 +36,9 @@ const styles = {
 };
 
 const config = {
-    animate: true,
-    arrowIcon: "v",
-    tabFocus: true
+  animate: true,
+  arrowIcon: "v",
+  tabFocus: true,
 };
 
 const FAQ = () => {

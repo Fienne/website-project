@@ -74,8 +74,8 @@ function ContactForm() {
       <br />
       <Container>
         <div className="row">
-          <div className="col col-lg-6 col-md-12 col-sm-12">
-            <h3>
+          <div className="col-lg-6">
+            <h3 className="mt-5">
               <b>
                 A brand and digital design agency for ambitious young businesses
               </b>
@@ -90,7 +90,9 @@ function ContactForm() {
               and strategy in all of our products.
             </p>
           </div>
-          <div className="col col-lg-6 col-md-12 col-sm-12"></div>
+          <div className="col col-lg-6 col-md-12 col-sm-12">
+            <img src="./Images/Contact us-amico.png" className="img-fluid" />
+          </div>
         </div>
 
         <br />
@@ -109,7 +111,7 @@ function ContactForm() {
 
           <form>
             <div className="row">
-              <div className="col-md-8 mb-md-0 mb-5">
+              <div className="col-md-6 mb-md-0 mb-5">
                 <form>
                   <div className="row">
                     <div className="col-md-6">
@@ -179,12 +181,34 @@ function ContactForm() {
                   Submit
                 </button>
               </div>
+              <div className="col-md-6 mb-md-0 mb-5">
+                <h2>
+                  <b>
+                    Let's make something great together and let your brand shine
+                  </b>
+                </h2>
+                <p>
+                  <b>Doing great products for good people</b>
+                </p>
+                <p>
+                  We build sunny warm-toned optimistic brands. Life's too short
+                  for dull businesses. Experienced with different poles which
+                  can be helpful at different stages of the projects.
+                </p>
+              </div>
             </div>
           </form>
-          <FAQ />
+          <div className="row">
+            <div className="col-md-6">
+              <img src="./Images/Datagirl-flyer.jpg" className="img-fluid" />
+            </div>
+            <div className="col-md-6">
+              <FAQ />
+            </div>
+          </div>
         </section>
       </Container>
-          <Newsletter />
+      <Newsletter />
     </div>
   );
 }

@@ -21,7 +21,7 @@ const Navigation = () => {
     <BrowserRouter>
       <Navbar bg="light" expand="lg md">
         <Container>
-          <Navbar.Brand to="/home">
+          <Link to="/home">
             <img
               src="./Images/Datagirltechlogo.png"
               width=""
@@ -29,7 +29,7 @@ const Navigation = () => {
               className="d-inline-block align-top"
               alt="DataGirl logo"
             />
-          </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
