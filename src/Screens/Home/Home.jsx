@@ -30,7 +30,7 @@ const Home = () => {
             to code, and link them up with oppportunities in the tech sector
           </span>
           <br />
-          <Link to="/aboutUs">
+          <Link to="/about-us">
             <RegButton title="About Us" />
           </Link>
         </section>
