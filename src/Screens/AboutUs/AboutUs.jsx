@@ -70,7 +70,7 @@ const AboutUs = () => {
             </div>
             <div className="col-md-6 parent d-lg-none d-xl-block">
               <img
-                src="./Images/dg_img.jpg"
+                src="./Images/image.jpg"
                 alt="DataGirl-Image"
                 className="image1 img-fluid"
               />

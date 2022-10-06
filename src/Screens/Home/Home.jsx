@@ -131,10 +131,45 @@ const Home = () => {
         </Carousel.Item>
       </Carousel>
       <Container>
-        <div className="">
-          <h4 className="d-flex justify-content-center"></h4>
+        <div className="middle-content">
+          <h2 className="d-flex justify-content-center fw-bolder brand-text">
+            A brand agency for ambitious young businesses
+          </h2>
+          <div className="d-flex justify-content-center">
+            <span className="text-center dot"></span>&nbsp;&nbsp;
+            <span className="text-center dot"></span>&nbsp;&nbsp;
+            <span className="text-center dot"></span>&nbsp;&nbsp;
+            <span className="text-center dot"></span>&nbsp;&nbsp;
+          </div>
+          <p className="text-center">
+            We believe scaling startups require a radically different kind of
+            agency. Our lean, flexible approach is designed to help the
+            businesses of tomorrow move forward, fast.
+          </p>
         </div>
-        <Row className="mt-5">
+
+        <div className="row">
+          <div className="col-md-6 parent">
+            <img
+              src="./Images/one.jpg"
+              alt="DataGirl-Image"
+              className="image1 img-fluid"
+            />
+            <img
+              src="./Images/two.jpg"
+              alt="DataGirl-Image"
+              className="image2 img-fluid"
+            />
+
+            <img
+              src="./Images/three.jpg"
+              alt="DataGirl-Image"
+              className="image3 img-fluid"
+            />
+          </div>
+          <div className="col-md-6"></div>
+        </div>
+        {/* <Row className="mt-3">
           <div className="mt-5 col-md-6">
             <img
               src="./Images/female-code.jpg"
@@ -142,7 +177,7 @@ const Home = () => {
             />
           </div>
           <div className="mt-5 col-md-6">
-            <h4 style={{ color: "#E60168" }}>
+            <h4 style={{ color: "#E60168"}} className="fw-bold">
               WE GIVE YOU THE BEST IT TRAINING COURSES IN CAMEROON
             </h4>
             <p>
@@ -154,9 +189,9 @@ const Home = () => {
               second to none.
             </p>
           </div>
-        </Row>
+        </Row> */}
         <h2 className="mt-5">See what our students have to say about us</h2>
-          <Testimonial />
+        <Testimonial />
       </Container>
     </div>
   );
