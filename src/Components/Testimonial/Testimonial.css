@@ -205,7 +205,7 @@
     backface-visibility: hidden;
     border-top: 1px solid #ddd;
     border-left: 1px solid #ddd;
-    background: linear-gradient(to bottom, #E60168, #000000, #E60168 );
+    background: white;
     /* border-right: 1px solid #999;
 border-bottom: 1px solid #999; */
 }
@@ -228,11 +228,12 @@ border-bottom: 1px solid #999; */
 
 .card-content .face.front-face .name {
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .card-content .face.front-face .designation {
     font-size: 0.8rem;
-    color: #ddd;
+    color: #000;
     letter-spacing: 0.8px;
 }
 

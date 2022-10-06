@@ -7,6 +7,8 @@ import { Container } from "react-bootstrap";
 
 //import components
 import FAQ from "../../Components/FAQ/FAQ";
+import Newsletter from "../../Components/Newsletter/Newsletter";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const AboutUs = () => {
   return (
@@ -66,10 +68,25 @@ const AboutUs = () => {
                 </button>
               </Link>
             </div>
-            <div className="col-md-6 parent">
-                 <img src="./Images/dg_img.jpg" alt="DataGirl-Image" className="image1 img-fluid"/>
-                <img src="./Images/Dg_img.jpg" alt="DataGirl-Image" className="image2 img-fluid"/>
+            <div className="col-md-6 parent d-lg-none d-xl-block">
+              <img
+                src="./Images/dg_img.jpg"
+                alt="DataGirl-Image"
+                className="image1 img-fluid"
+              />
+              <img
+                src="./Images/Dg_img.jpg"
+                alt="DataGirl-Image"
+                className="image2 img-fluid"
+              />
             </div>
+          </div>
+          <div>
+            <h3 className="text-center fw-bold">
+              See what our clients say about us and how we can help your company
+              and team, too
+            </h3>
+            <Testimonial />
           </div>
         </section>
       </Container>

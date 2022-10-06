@@ -1,70 +1,11 @@
 import React from "react";
 import "./Testimonial.css"
 
+//import components
+import Ratings from "../Ratings/Ratings";
+
 function Testimonial() {
   return (
-//     <div className="d-flex">
-//       <div className="single-testimonial">
-//         <div className="testimonials-wrapper">
-//           <h4>
-//             Habitasse lobortis cum malesuada nullam cras odio venenatis nisl at
-//             turpis sem in porta consequat massa a mus massa nascetur elit
-//             vestibulum a.
-//           </h4>
-//           <div className="testimonials-blob"></div>
-//           <div className="testimonials-img">
-//             <img src="https://randomuser.me/api/portraits/women/21.jpg" />
-//           </div>
-//           <div className="testimonials-person-info">
-//             <p>
-//               <b>Jane Doe</b>
-//               <br />
-//               Web Developer
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="single-testimonial">
-//         <div className="testimonials-wrapper">
-//           <h4>
-//             Aenean a neque ipsum. In viverra mauris nibh, nec dapibus nibh
-//             imperdiet at. Nulla urna odio, aliquam tincidunt posuere quis,
-//             placerat nec sem.
-//           </h4>
-//           <div className="testimonials-blob"></div>
-//           <div className="testimonials-img">
-//             <img src="https://randomuser.me/api/portraits/women/65.jpg" />
-//           </div>
-//           <div className="testimonials-person-info">
-//             <p>
-//               <b>Jane Doe</b>
-//               <br />
-//               Web Developer
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//       <div className="single-testimonial">
-//         <div className="testimonials-wrapper">
-//           <h4>
-//             Donec in quam eget arcu convallis maximus. In hac habitasse platea
-//             dictumst. Etiam commodo faucibus vestibulum. Aliquam vitae
-//             consectetur velit.
-//           </h4>
-//           <div className="testimonials-blob"></div>
-//           <div className="testimonials-img">
-//             <img src="https://randomuser.me/api/portraits/women/96.jpg" />
-//           </div>
-//           <div className="testimonials-person-info">
-//             <p>
-//               <b>Jane Doe</b>
-//               <br />
-//               Web Developer
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
 
 <div className="container-card testimonial">
         <div className="row">
@@ -77,6 +18,7 @@ function Testimonial() {
                             Robert Garrison
                         </div>
                         <div className="designation">Android Developer</div>
+                        <Ratings />
                     </div>
                     <div className="face back-face">
                         <span className="fas fa-quote-left"></span>
@@ -98,6 +40,7 @@ function Testimonial() {
                             Jeffery Kennan
                         </div>
                         <div className="designation">Full Stack Developer</div>
+                        <Ratings />
                     </div>
                     <div className="face back-face">
                         <span className="fas fa-quote-left"></span>
@@ -118,6 +61,7 @@ function Testimonial() {
                             Issac Maxwell
                         </div>
                         <div className="designation">Finance Director</div>
+                        <Ratings />
                     </div>
                     <div className="face back-face">
                         <span className="fas fa-quote-left"></span>

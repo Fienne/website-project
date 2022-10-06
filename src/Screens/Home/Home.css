@@ -2,7 +2,7 @@
   font-family: "Poppins", sans-serif;
 } */
 
-body{
+body {
   margin: 0;
   font-family: sans-serif;
 }
@@ -15,7 +15,7 @@ header {
   align-items: center;
 }
 
-.hero-text{
+.hero-text {
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ header {
   text-align: center;
 }
 
-.img-left{
+.img-left {
   width: 30rem;
   border-radius: 20px;
 }
@@ -37,24 +37,64 @@ Card {
   border-radius: 20px;
 }
 
-path{
+path {
   fill: var(--primary-color);
 }
 
-a{
+a {
   color: var(--primary-color);
 }
 
-
-footer{
+footer {
   background: black;
   color: white;
 }
 
-svg{
+svg {
   color: white;
 }
 
-.align-base{
+.align-base {
   vertical-align: baseline;
+}
+
+@media screen and (min-width: 1025px) {
+  .carousel-1 {
+    margin-top: 600px;
+  }
+  .hero-carousel-1 .hero-heading {
+    font-size: 70px;
+    font-weight: 1000;
+  }
+  .hero-heading-2 {
+    padding-bottom: 50px;
+  }
+  .header-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 250px;
+    left: 380px;
+  }
+}
+
+@media (min-width: 320px) {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+}
+@media (min-width: 480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (min-width: 600px) {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+@media (min-width: 801px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
 }

@@ -174,6 +174,60 @@ const GetTrained = () => {
         using WordPress."
           />
         </Row>
+        <div className="mt-5">
+          <div className="d-flex justify-content-center">
+            <h3> We Love What we do and who we do it for</h3>
+          </div>
+        </div>
+        <div className="d-flex justify-content-center">
+          <p>
+            Our Practical one on one personalized training has set us as one of
+            the best Computer training institutes in Cameroon
+          </p>
+        </div>
+        <hr />
+        <div>
+          <br />
+          <br />
+          <Row>
+            <Col lg={4} md={12}>
+              <h3>Crafting effective digital marketing and UX design</h3>
+              <p>
+                As the best, IT training center in Cameroon our IT training
+                courses are practical hands-on training where you learn IT
+                skills that are in high demand from the beginning to advanced
+                even if you have not touched a computer before.
+                <br />
+                <br />
+                The world of information technology IT is growing rapidly, and
+                in the years to come in this digital age, we are going to see
+                even more of a demand for IT skills and IT-related jobs. We all
+                have started seeing the dramatic impact information technology
+                is having on the business world. Everything now revolves around
+                Information technology. Many people fear losing their jobs to
+                machines and technology, but the exciting component of this
+                transition is that it will create new jobs in the process.
+                <br />
+                <br />
+                What this means is that those who enroll in IT training courses
+                and learn practical IT skills will have a better chance of being
+                employed. Our IT training center in Cameroon is positioned with
+                the state of the art IT training equipment.
+              </p>
+
+              <RegButton title="Register Now" />
+              <br />
+              <br />
+              <br />
+              <br />
+            </Col>
+            <br />
+            <br />
+            <Col lg={8} md={12} className="d-flex justify-content-center">
+              <img src="./Images/dg3.jpeg" />
+            </Col>
+          </Row>
+        </div>
 
         <h4 className="mt-5">Testimonials</h4>
         {/* <Row className="testimonials">
