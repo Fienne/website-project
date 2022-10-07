@@ -14,7 +14,7 @@ const GetTrained = () => {
       <Container>
         <div className="row mt-2">
           <div className="col-md-6">
-            <h3 className="mt-5" style={{ color: "var(--primary-color)" }}>
+            <h3 className="mt-5 trained-header" style={{ color: "var(--primary-color)" }}>
               Let Us Help You Build a Career in Tech
             </h3>
             <br />

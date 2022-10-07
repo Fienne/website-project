@@ -24,7 +24,6 @@ const Home = () => {
 
   return (
     <div className="">
-
       <Carousel className="carousel">
         <Carousel.Item className="hero-carousel">
           <img
@@ -99,7 +98,9 @@ const Home = () => {
           Center for ICT <br /> and computer training in <br /> Cameroon
         </h3>
         <Link to="/about-us">
-          <button className="d-block hero-button phone-button">Get Started</button>
+          <button className="d-block hero-button phone-button">
+            Get Started
+          </button>
         </Link>
       </div>
       <Container>
@@ -206,7 +207,7 @@ const Home = () => {
           <Col lg={3} md={6} sm={12}>
             <Container>
               <Card
-                className="text-center seo-card shadow"
+                className="text-center seo-card shadow mt-3"
                 style={{ background: "#FFDDEB" }}
               >
                 <Card.Body>
@@ -233,7 +234,7 @@ const Home = () => {
           <Col lg={3} md={6} sm={12}>
             <Container>
               <Card
-                className="text-center seo-card shadow"
+                className="text-center seo-card shadow mt-3"
                 style={{ background: "#DEFFCC" }}
               >
                 <Card.Body>
@@ -260,7 +261,7 @@ const Home = () => {
           <Col lg={3} md={6} sm={12}>
             <Container>
               <Card
-                className="text-center seo-card shadow"
+                className="text-center seo-card shadow mt-3"
                 style={{ background: "#CEDFFE" }}
               >
                 <Card.Body>
@@ -286,8 +287,7 @@ const Home = () => {
           </Col>
         </div>
       </Container>
-      <div className="row mt-5 w-100" style={{ background: "#EEF4FB" }}>
-        {/* <div className="container-1"> */}
+      <div className="row mt-5" style={{ background: "#EEF4FB" }}>
         <div className="col-md-6 mt-5 first-content">
           <h3 className="fw-bold">
             Creating unique and digital experiences for your business and your
@@ -298,12 +298,12 @@ const Home = () => {
             specializes in developing stunning websites.
           </p>
           <div className="row">
-            <div className="col-6 ">
+            <div className="col-md-6 ">
               <h1 className="fw-bold">100%</h1>
               <h4 className="fw-bold">Satisfaction rate</h4>
               <img src="./Images/Star.png" alt="rating star" />
             </div>
-            <div className="col-6 ">
+            <div className="col-md-6 ">
               <h1 className="fw-bold">4.9/5.0</h1>
               <h4 className="fw-bold">Average ratings</h4>
               <img src="./Images/Star.png" alt="rating star" />
@@ -311,9 +311,11 @@ const Home = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <img src="./Images/talking.jpeg" className="img-fluid talking-img" />
+          <img
+            src="./Images/talking.jpeg"
+            className="img-fluid w-100v talking-img"
+          />
         </div>
-        {/* </div> */}
       </div>
 
       <Container>
@@ -327,15 +329,18 @@ const Home = () => {
           <span className="text-center dot"></span>&nbsp;&nbsp;
         </div>
 
-        <div className="row featured">
+        <div className="row featured ">
           <div className="col-md-4">
-            <img className="img-fluid" src="./Images/forbes.png" />
+            <img className="img-fluid featured-img" src="./Images/forbes.png" />
           </div>
           <div className="col-md-4">
-            <img className="img-fluid" src="./Images/biz.png" />
+            <img className="img-fluid featured-img" src="./Images/biz.png" />
           </div>
           <div className="col-md-4">
-            <img className="img-fluid" src="./Images/disrupt.png" />
+            <img
+              className="img-fluid featured-img"
+              src="./Images/disrupt.png"
+            />
           </div>
         </div>
         <Row className="mt-3">

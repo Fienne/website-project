@@ -1,3 +1,12 @@
-.button{
- border-radius: 30px;  
+.button {
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 1025px) {
+  .contact-form {
+    justify-content: right;
+    display: flex;
+    align-content: flex-end;
+    padding-right: 50px;
+  }
 }

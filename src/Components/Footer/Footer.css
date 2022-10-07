@@ -1,12 +1,22 @@
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-a :hover{
-    color: pink;
+a.link :hover {
+  color: red;
 }
 
-.padding-left{
-    padding-left: 100px;
+.padding-left {
+  padding-left: 100px;
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding-left: 15px;
+    color: var(--primary-color);
+  }
+  .contact {
+    padding-left: 15px;
+  }
 }

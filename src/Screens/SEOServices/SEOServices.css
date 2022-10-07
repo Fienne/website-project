@@ -1,5 +1,5 @@
 .seo-card {
-  padding: 20px;
+  padding-top: 20px;
   border: none;
 }
 @media screen and (min-width: 1025px) {
@@ -39,7 +39,7 @@
   }
 }
 
-@media (min-width: 350px) {
+@media (max-width: 480px) {
     /* smartphones, Android phones, landscape iPhone */
     .seo-hero{
         display: none;

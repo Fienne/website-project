@@ -19,7 +19,11 @@ import ContactForm from "../Contact/ContactForm";
 const Navigation = () => {
   return (
     <BrowserRouter>
-      <Navbar bg="light" expand="lg md" className="sticky-top">
+      <Navbar
+        bg="light"
+        expand="lg md"
+        className="sticky-top text-left col-sm-12 top-0 start-0"
+      >
         <Container>
           <Link to="/home">
             <img
@@ -30,12 +34,14 @@ const Navigation = () => {
               alt="DataGirl logo"
             />
           </Link>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            style={{ border: "none", width:"50px" }}
+          />
+          <Navbar.Collapse id="basic-navbar-nav">
             <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
-              navbarScroll
+              className=""
+              style={{ maxHeight: "200px" }}
             >
               <Nav.Link as={Link} to="/home">
                 Home
@@ -57,24 +63,25 @@ const Navigation = () => {
               <Nav.Link as={Link} to="/about-us">
                 About Us
               </Nav.Link>
+              <Form className="contact-form">
+                <Link to="/contact">
+                  <RegButton title="Contact Us" />
+                </Link>
+              </Form>
             </Nav>
-            <Form className="d-flex">
-              <Link to="/contact">
-              <RegButton title="Contact Us" />
-              </Link>
-            </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
+
       <Routes>
         <Route element={<Navigate to="/home" />} path="*" />
         <Route element={<Home />} path="/home" />
         <Route element={<GetTrained />} path="/get-trained" />
-        <Route element={<WebAppDev />} path="/web-and-app-development"/>
-        <Route element={<BrandIdentity />}  path="/brand-identity" />
+        <Route element={<WebAppDev />} path="/web-and-app-development" />
+        <Route element={<BrandIdentity />} path="/brand-identity" />
         <Route element={<SEOServices />} path="/seo-services" />
         <Route element={<AboutUs />} path="/about-us" />
-        <Route element={<ContactForm/>} path="/contact" />
+        <Route element={<ContactForm />} path="/contact" />
       </Routes>
     </BrowserRouter>
   );

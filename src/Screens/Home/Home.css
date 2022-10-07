@@ -241,13 +241,9 @@ svg {
     display: none;
   }
 
-  h3 {
+  /* h3 {
     font-size: 16px;
-  }
-
-  p {
-    font-size: 16px;
-  }
+  } */
 
   .phone-hero {
     position: relative;
@@ -279,13 +275,55 @@ svg {
     font-size: 12px;
     padding: 15px;
   }
+  .featured-img {
+    width: 300px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+  }
 }
 @media (min-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
 }
-@media (max-width: 600px) {
+@media (min-width: 600px) and (max-width: 800px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .phone-hero {
+    position: relative;
+  }
 
+  .carousel {
+    display: none;
+  }
+
+  .parent-div {
+    display: none;
+  }
+
+  .phone-heading {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .phone-button {
+    position: absolute;
+    bottom: 20px;
+    left: 270px;
+    font-weight: bold;
+    height: 45px;
+  }
+  .brand-text {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .p-center {
+    padding: 15px;
+  }
   .mx-w-100 {
     max-width: 100% !important;
   }

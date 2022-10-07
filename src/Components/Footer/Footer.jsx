@@ -130,12 +130,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <Col lg={4} className="padding-left">
-          <h4>About Company</h4>
+        <Col lg={4} className="padding-left about">
+          <h4 style={{color:"var(--primary-color)"}}>About Company</h4>
           <br/>
           <Row>
             <Col>
-              <a href="#">About</a>
+              <a href="#" className="link">About</a>
               <br />
               <br />
               <a href="#">Services</a>
@@ -160,8 +160,8 @@ const Footer = () => {
             </Col>
           </Row>
         </Col>
-        <Col lg={4} className="padding-left">
-          <h4>Contact Us</h4>
+        <Col lg={4} className="padding-left contact">
+          <h4 style={{color:"var(--primary-color)"}}>Contact Us</h4>
           <br/>
           <Col>
             <p>Mon-Fri: 8.00am - 6.00pm</p>

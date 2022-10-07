@@ -1,21 +1,26 @@
 import { Row, Col, Container, Card } from "react-bootstrap";
 import "./WebAppDev.css";
 import { Link } from "react-router-dom";
-import $ from "jquery";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 //import components
 import RegButton from "../../Components/Button/RegButton";
+import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const WebAppDev = () => {
   return (
     <div>
       <Container>
         <Row>
-          <Col className="col-lg-6 col-sm-12">
+          <div className="col-md-6">
             <br />
             <br />
             <br />
-            <h1 className="mt-5">We build awesome apps and websites</h1>
+            <h1 className="mt-5 fw-bold web-heading">
+              We build awesome apps and websites
+            </h1>
             <p>
               We specialise in developing applications and outstanding websites.
             </p>
@@ -23,27 +28,36 @@ const WebAppDev = () => {
             <Link to="/about-us">
               <RegButton title="Get Started" />
             </Link>
-          </Col>
-          <Col className="col-lg-6 col-sm-12">
+          </div>
+          <div className="col-md-6">
             <img
+              className="img-fluid"
               style={{ width: "100%" }}
               src="./Images/Website setup-amico.png"
             />
-          </Col>
+          </div>
         </Row>
         <div className="d-flex justify-content-center">
-          <h1>We create digital solutions</h1>
+          <h2 className="fw-bold">We create digital solutions</h2>
         </div>
         <div className="d-flex justify-content-center">
           <p>By making products that stand out from the crowd</p>
         </div>
         <br />
         <br />
-        <Row>
-          <Col>
-            <Card style={{ height: "10rem" }} className="p-3 text-center">
+        <div className="row">
+          <Col lg={3} md={6} sm={12}>
+            <Card
+              style={{ height: "10rem" }}
+              className="p-3 text-center seo-card"
+            >
               <Card.Body>
-                <h3>2.5m</h3>
+                <h2
+                  className="fw-bold"
+                  style={{ color: "var(--primary-color)", fontSize: "40px" }}
+                >
+                  2.5m
+                </h2>
                 <br />
                 <h4>
                   <b> Lines of code</b>
@@ -51,10 +65,18 @@ const WebAppDev = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ height: "10rem" }} className="p-3 text-center">
+          <Col lg={3} md={6} sm={12}>
+            <Card
+              style={{ height: "10rem" }}
+              className="p-3 text-center seo-card"
+            >
               <Card.Body>
-                <h3>100+</h3>
+                <h2
+                  className="fw-bold"
+                  style={{ color: "var(--primary-color)", fontSize: "40px" }}
+                >
+                  100+
+                </h2>
                 <br />
                 <h4>
                   <b>Projects</b>
@@ -62,10 +84,18 @@ const WebAppDev = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ height: "10rem" }} className="p-3 text-center">
+          <Col lg={3} md={6} sm={12}>
+            <Card
+              style={{ height: "10rem" }}
+              className="p-3 text-center seo-card"
+            >
               <Card.Body>
-                <h3>99.8%</h3>
+                <h2
+                  className="fw-bold"
+                  style={{ color: "var(--primary-color)", fontSize: "40px" }}
+                >
+                  99.8%
+                </h2>
                 <br />
                 <h4>
                   <b>Satisfaction</b>
@@ -73,10 +103,18 @@ const WebAppDev = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col>
-            <Card style={{ height: "10rem" }} className="p-3 text-center">
+          <Col lg={3} md={6} sm={12}>
+            <Card
+              style={{ height: "10rem" }}
+              className="p-3 text-center seo-card"
+            >
               <Card.Body>
-                <h3>80+</h3>
+                <h2
+                  className="fw-bold"
+                  style={{ color: "var(--primary-color)", fontSize: "40px" }}
+                >
+                  80+
+                </h2>
                 <br />
                 <h4>
                   <b>Happy Clients</b>
@@ -84,57 +122,39 @@ const WebAppDev = () => {
               </Card.Body>
             </Card>
           </Col>
-        </Row>
-        <Row className="mt-5">
-          <Col className="col-lg-6 col-sm-12">
-            <img
-              className="web-image"
-              style={{ width: "100%" }}
-              src="./Images/Datagirl-laptop.jpg"
-            />
-          </Col>
-          <Col className="col-lg-6 col-sm-12">
-            <br />
-            <br />
-            <br />
-            <h3 style={{ color: "var(--primary-color)" }}>
+        </div>
+        <Row className="mt-3">
+          <div className="mt-5 col-md-6">
+            <img src="./Images/img.jpg" className="img-fluid" />
+          </div>
+          <div className="mt-5 col-md-6 left-content">
+            <h3 className="fw-bold">
               We are a digital agency specialized in building digital products
             </h3>
-            <p>
+            <p className="left-p">
               We build web platforms, mobile apps, APIs, integrations, and fit
               them all into a beautiful-looking and high-performing system that
               helps you business thrive!
             </p>
-            <br />
-            <Link to="/about-us">
-              <RegButton title="About Us" />
+            <Link to="contact-us">
+              <button className="left-button"> Let's talk</button>
             </Link>
-          </Col>
+          </div>
         </Row>
-        <Row>
-          <Col>
-            {/* <div className="w3-light-grey">
-              <div className="w3-grey" style={{height:"24px", width:"25%", color:"black"}}></div>
-            </div> */}
-            <ul className="list-unstyled card-body mb-0 pb-0">
-              <li className="row mb-3">
-                <div>Development</div>
-                <div className="col-lg-6 col-md-12 col-sm-12 align-self-center">
-                  <div className="progress" style={{height: "10px"}}>
-                    <div
-                      className="progress-bar"
-                      role="progressbar"
-                      style={{width: "90%"}}
-                      aria-valuenow="90"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+        <div className="row mt-5 mb-5">
+          <div className="col-md-6">
+            <h3 className="d-flex fw-bolder">
+              Building websites to make your brand stand out from the noise
+            </h3>
+          </div>
+          <div className="col-md-6">
+            <p>
+              We optimize your ability to sell online with our custom-crafted
+              ecommerce solutions that are designed to help you succeed.
+            </p>
+          </div>
+        </div>
+        <Testimonial />
       </Container>
       <br />
       <br />
