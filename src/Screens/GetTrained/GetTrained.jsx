@@ -1,7 +1,6 @@
 import { Row, Col, Container, Card } from "react-bootstrap";
 import "./GetTrained.css";
 
-
 //import components
 import Footer from "../../Components/Footer/Footer";
 import RegButton from "../../Components/Button/RegButton";
@@ -15,23 +14,25 @@ const GetTrained = () => {
       <Container>
         <div className="row mt-2">
           <div className="col-md-6">
-            <h3 className="mt-5" style={{color:"var(--primary-color)"}}>Let Us Help You Build a Career in Tech</h3>
-            <br/>
+            <h3 className="mt-5" style={{ color: "var(--primary-color)" }}>
+              Let Us Help You Build a Career in Tech
+            </h3>
+            <br />
             <p>
-              Do you want to change jobs and take up an IT career? <br/> Are you a
-              graduate who wants to build a career in IT? <br/> Do you have some
-              skills in IT but you want to build a career path that can give you
-              your dream job? <br/> Are you not sure of the IT training and skills you
-              need to prepare for the career you want? <br/> DataGirl's IT career path
-              training is created to help you choose a career in IT, get the
-              required IT training and skills which prepare you for a
-              well-paying job. Our IT career path specialist is always ready to
-              guide you
+              Do you want to change jobs and take up an IT career? <br /> Are
+              you a graduate who wants to build a career in IT? <br /> Do you
+              have some skills in IT but you want to build a career path that
+              can give you your dream job? <br /> Are you not sure of the IT
+              training and skills you need to prepare for the career you want?{" "}
+              <br /> DataGirl's IT career path training is created to help you
+              choose a career in IT, get the required IT training and skills
+              which prepare you for a well-paying job. Our IT career path
+              specialist is always ready to guide you
             </p>
-            <br/>
+            <br />
             <RegButton title="Contact Us" />
           </div>
-          <div className ="col-md-6">
+          <div className="col-md-6">
             <img
               src="./Images/Data extraction-amico.png"
               alt=""
@@ -39,9 +40,9 @@ const GetTrained = () => {
             />
           </div>
         </div>
-        <h3>Get Trained</h3>
 
-        <Row>
+        <div className="row">
+          <h2>Get Trained</h2>
           <CardComponent
             svg={
               <g data-name="programming-web-coding">
@@ -173,7 +174,7 @@ const GetTrained = () => {
         fully understand how to build and host your website online
         using WordPress."
           />
-        </Row>
+        </div>
         <div className="mt-5">
           <div className="d-flex justify-content-center">
             <h3> We Love What we do and who we do it for</h3>

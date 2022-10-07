@@ -72,7 +72,7 @@ const CardComponent = (props) => {
   return (
     <>
       <Col lg={4} md={6} sm={12}>
-        <Card className="mt-4 shadow" style={{  }}>
+        <Card className="mt-3 shadow" style={{  }}>
           <Card.Body>
             <svg
               className="svg"
@@ -82,7 +82,7 @@ const CardComponent = (props) => {
             >
               {props.svg}
             </svg>
-            <h3 style={{ paddingTop:'10px' }}>{ props.title }</h3>
+            <h3 style={{ paddingTop:'10px'}} className="fw-bold">{ props.title }</h3>
             <ReadMore>
             {props.readmore}</ReadMore>
           </Card.Body>
