@@ -1,3 +1,7 @@
 :root{
   --primary-color: #E60168;
 }
+
+body{
+  overflow-x: hidden;
+}

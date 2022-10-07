@@ -218,6 +218,10 @@ svg {
   .phone-hero {
     display: none;
   }
+
+  .p-center{
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -252,7 +256,7 @@ svg {
   .phone-heading {
     position: absolute;
     top: 30px;
-    left: 23px;
+    left: 33px;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
@@ -266,19 +270,19 @@ svg {
   }
   .brand-text {
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
     margin-top: 20px;
   }
 
-  .p-center {
-    font-size: 12px;
-    padding: 15px;
-  }
   .featured-img {
     width: 300px;
     padding-bottom: 20px;
     padding-left: 60px;
+  }
+
+  .first-content{
+    padding-left: 30px;
   }
 }
 @media (min-width: 480px) {

@@ -1,5 +1,6 @@
 import { Row, Col } from "react-bootstrap";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -131,38 +132,40 @@ const Footer = () => {
         </div>
 
         <Col lg={4} className="padding-left about">
-          <h4 style={{color:"var(--primary-color)"}}>About Company</h4>
-          <br/>
+          <h4 style={{ color: "var(--primary-color)" }}>About Company</h4>
+          <br />
           <Row>
             <Col>
-              <a href="#" className="link">About</a>
+              <a href="/about-us" className="link">
+                About
+              </a>
               <br />
               <br />
-              <a href="#">Services</a>
+              <a href="/about-us">Services</a>
               <br />
               <br />
-              <a href="#">Resources</a>
+              <a href="/about-us">Resources</a>
               <br />
               <br />
-              <a href="#">Portfolio</a>
+              <a href="/about-us">Portfolio</a>
             </Col>
             <Col>
-              <a href="#">Pricing</a>
+              <a href="/about-us">Pricing</a>
               <br />
               <br />
-              <a href="#">Careers</a>
+              <a href="/about-us">Careers</a>
               <br />
               <br />
-              <a href="#">News</a>
+              <a href="/about-us">News</a>
               <br />
               <br />
-              <a href="#">Events</a>
+              <a href="/about-us">Events</a>
             </Col>
           </Row>
         </Col>
         <Col lg={4} className="padding-left contact">
-          <h4 style={{color:"var(--primary-color)"}}>Contact Us</h4>
-          <br/>
+          <h4 style={{ color: "var(--primary-color)" }}>Contact Us</h4>
+          <br />
           <Col>
             <p>Mon-Fri: 8.00am - 6.00pm</p>
           </Col>

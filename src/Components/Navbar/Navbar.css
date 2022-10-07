@@ -2,11 +2,10 @@
   border-radius: 30px;
 }
 
-@media screen and (min-width: 1025px) {
+/* @media screen and (min-width: 1025px) {
   .contact-form {
-    justify-content: right;
     display: flex;
-    align-content: flex-end;
-    padding-right: 50px;
+    justify-content: flex-end;
+    padding-left: 50px;
   }
-}
+} */

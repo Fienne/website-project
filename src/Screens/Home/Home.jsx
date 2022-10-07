@@ -24,6 +24,7 @@ const Home = () => {
 
   return (
     <div className="">
+
       <Carousel className="carousel">
         <Carousel.Item className="hero-carousel">
           <img
@@ -98,14 +99,12 @@ const Home = () => {
           Center for ICT <br /> and computer training in <br /> Cameroon
         </h3>
         <Link to="/about-us">
-          <button className="d-block hero-button phone-button">
-            Get Started
-          </button>
+          <button className="d-block hero-button phone-button">Get Started</button>
         </Link>
       </div>
       <Container>
         <div className="middle-content">
-          <h2 className="d-flex justify-content-center fw-bolder brand-text">
+          <h2 className="d-flex justify-content-center text-center fw-bolder brand-text">
             A brand agency for ambitious young businesses
           </h2>
           <div className="d-flex justify-content-center">
@@ -114,7 +113,7 @@ const Home = () => {
             <span className="text-center dot"></span>&nbsp;&nbsp;
             <span className="text-center dot"></span>&nbsp;&nbsp;
           </div>
-          <p className="text-center p-center">
+          <p className="p-center">
             We believe scaling startups require a radically different kind of
             agency. Our lean, flexible approach is designed to help the
             businesses of tomorrow move forward, fast.
@@ -311,10 +310,7 @@ const Home = () => {
           </div>
         </div>
         <div className="col-md-6">
-          <img
-            src="./Images/talking.jpeg"
-            className="img-fluid w-100v talking-img"
-          />
+          <img src="./Images/talking.jpeg" className="img-fluid w-100v talking-img" />
         </div>
       </div>
 
@@ -337,10 +333,7 @@ const Home = () => {
             <img className="img-fluid featured-img" src="./Images/biz.png" />
           </div>
           <div className="col-md-4">
-            <img
-              className="img-fluid featured-img"
-              src="./Images/disrupt.png"
-            />
+            <img className="img-fluid featured-img" src="./Images/disrupt.png" />
           </div>
         </div>
         <Row className="mt-3">
