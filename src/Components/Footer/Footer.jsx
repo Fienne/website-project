@@ -4,8 +4,8 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer>
-      <Row className="p-5">
-        <Col lg={4}>
+      <div className="row p-5">
+        <div className="col">
           <img src="./Images/dg-logo.png" alt="" />
           <p>
             We are an award-winning digital agency rendering services in web
@@ -13,8 +13,8 @@ const Footer = () => {
             sized enterprises. We offer quality and ICT and Computer training
             services in Cameroon.
           </p>
-          <Row>
-            <Col>
+          <div className="row">
+            <div className="col">
               <a href="#" className="align-base">
                 <svg
                   width="29"
@@ -126,9 +126,9 @@ const Footer = () => {
                   </defs>
                 </svg>
               </a>
-            </Col>
-          </Row>
-        </Col>
+            </div>
+          </div>
+        </div>
 
         <Col lg={4} className="padding-left">
           <h4>About Company</h4>
@@ -176,7 +176,7 @@ const Footer = () => {
             <p>info@datagirltech.com</p>
           </Col>
         </Col>
-      </Row>
+      </div>
     </footer>
   );
 };

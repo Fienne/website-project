@@ -1,6 +1,7 @@
-/* * {
-  font-family: "Poppins", sans-serif;
-} */
+* {
+  font-family: "Open Sans", sans-serif;
+  /* font-family:'Roboto', sans-serif; */
+}
 
 body {
   margin: 0;
@@ -58,9 +59,25 @@ svg {
   vertical-align: baseline;
 }
 
+.hero-button {
+  border-radius: 40px;
+  height: 50px;
+  width: 170px;
+}
+
 @media screen and (min-width: 1025px) {
   .carousel-1 {
     margin-top: 600px;
+  }
+
+  .hero-button-1 {
+    border-radius: 40px;
+    height: 50px;
+    width: 170px;
+    position: absolute;
+    top: 520px;
+    left: 370px;
+    font-weight: bold;
   }
   .hero-carousel-1 .hero-heading {
     font-size: 70px;
@@ -79,61 +96,199 @@ svg {
     left: 380px;
   }
 
-  .middle-content{
+  .middle-content {
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 60px;
   }
 
-  .brand-text{
-    padding-top: 20px;
+  .brand-text {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .dot {
     height: 5px;
-    width:5px;
+    width: 5px;
     background-color: var(--primary-color);
     border-radius: 50%;
     display: inline-block;
     padding: 3px;
   }
-  .parent {
+
+  .center-content {
+    padding-bottom: 100px;
+  }
+
+  .parent-div {
     position: relative;
     top: 0;
     left: 0;
     height: 300px;
-    width: 400px;
-    overflow:visible;
+    /* width: 400px; */
+    overflow: visible;
     height: 500px;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
   }
-  .image1 {
+  .image1-div {
     position: relative;
     top: 0;
     left: 0;
     border-radius: 20px;
+    width: 300px;
+    height: 300px;
   }
-  .image2 {
+  .image2-div {
     position: absolute;
     top: 220px;
     left: 90px;
     border-radius: 40px;
+    width: 300px;
+    height: 300px;
   }
-  .image2 {
-    position: absolute;
-    top: 220px;
-    left: 90px;
-    border-radius: 40px;
+  .image3-div {
+    position: relative;
+    top: 60px;
+    left: 0;
+    border-radius: 20px;
+    width: 190px;
+    height: 250px;
+  }
+
+  .bounce-3 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+  }
+  @keyframes bounce-3 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-100px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .container-1 {
+    margin: 100px;
+    /* padding-right: 70px;
+    padding-left: 70px; */
+  }
+
+  .talking-img {
+    overflow: visible;
+    width: 500px;
+    height: 750px;
+    position: relative;
+    top: -30px;
+    left: 0;
+  }
+
+  .first-content {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+  .test-heading {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .featured {
+    padding-top: 100px;
+  }
+
+  .left-content {
+    padding-left: 100px;
+  }
+
+  .left-p {
+    padding-top: 50px;
+  }
+
+  .left-button {
+    margin-top: 20px;
+  }
+  .phone-hero {
+    display: none;
   }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 480px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .body {
+    width: 100%;
+  }
+  .parent-div {
+    display: none;
+  }
+  .hero-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .hero-button {
+    height: 40px;
+    width: 120px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .phone-hero {
+    position: relative;
+  }
+
+  .phone-heading {
+    position: absolute;
+    top: 30px;
+    left: 23px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .phone-button {
+    position: absolute;
+    bottom: 20px;
+    left: 110px;
+    height: 35px;
+  }
+  .brand-text {
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .p-center {
+    font-size: 12px;
+    padding: 15px;
+  }
 }
 @media (min-width: 480px) {
   /* smartphones, Android phones, landscape iPhone */
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+
+  .mx-w-100 {
+    max-width: 100% !important;
+  }
 }
 @media (min-width: 801px) {
   /* tablet, landscape iPad, lo-res laptops ands desktops */

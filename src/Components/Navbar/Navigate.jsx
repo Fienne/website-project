@@ -19,7 +19,7 @@ import ContactForm from "../Contact/ContactForm";
 const Navigation = () => {
   return (
     <BrowserRouter>
-      <Navbar bg="light" expand="lg md">
+      <Navbar bg="light" expand="lg md" className="sticky-top">
         <Container>
           <Link to="/home">
             <img
