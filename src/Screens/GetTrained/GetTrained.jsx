@@ -13,8 +13,8 @@ const GetTrained = () => {
   return (
     <div>
       <Container>
-        <Row className="mt-2">
-          <Col>
+        <div className="row mt-2">
+          <div className="col-md-6">
             <h3 className="mt-5" style={{color:"var(--primary-color)"}}>Let Us Help You Build a Career in Tech</h3>
             <br/>
             <p>
@@ -30,15 +30,15 @@ const GetTrained = () => {
             </p>
             <br/>
             <RegButton title="Contact Us" />
-          </Col>
-          <Col>
+          </div>
+          <div className ="col-md-6">
             <img
               src="./Images/Data extraction-amico.png"
               alt=""
               className="hero-image-trained"
             />
-          </Col>
-        </Row>
+          </div>
+        </div>
         <h3>Get Trained</h3>
 
         <Row>
