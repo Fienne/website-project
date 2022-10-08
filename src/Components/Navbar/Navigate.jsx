@@ -16,6 +16,8 @@ import SEOServices from "../../Screens/SEOServices/SEOServices";
 import AboutUs from "../../Screens/AboutUs/AboutUs";
 import ContactForm from "../Contact/ContactForm";
 
+import "./Navbar.css";
+
 const Navigation = () => {
   return (
     <BrowserRouter>
@@ -69,8 +71,8 @@ const Navigation = () => {
           </Navbar.Collapse> */}
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
+              className="my-2 my-lg-0"
+              style={{ minHeight: "100px" }}
               navbarScroll
             >
               <Nav.Link as={Link} to="/home">
@@ -79,7 +81,7 @@ const Navigation = () => {
               <Nav.Link as={Link} to="/get-trained">
                 Get Trained
               </Nav.Link>
-              <NavDropdown as={Link} title="Our Services" to="/ourService">
+              <NavDropdown className="dropdown" as={Link} title="Our Services" to="/ourService">
                 <NavDropdown.Item as={Link} to="/web-and-app-development">
                   Web and App Development
                 </NavDropdown.Item>

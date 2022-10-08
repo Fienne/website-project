@@ -1,7 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
 :root{
   --primary-color: #E60168;
 }
 
 body{
   overflow-x: hidden;
+  width: 100%;
 }
