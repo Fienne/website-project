@@ -69,10 +69,9 @@ const Navigation = () => {
               </Link>
             </Form>
           </Navbar.Collapse> */}
-          <Navbar.Collapse id="navbarScroll">
+          <Navbar.Collapse id="navbarScroll" className="navbar-collapse">
             <Nav
               className="my-2 my-lg-0"
-              style={{ minHeight: "100px" }}
               navbarScroll
             >
               <Nav.Link as={Link} to="/home">

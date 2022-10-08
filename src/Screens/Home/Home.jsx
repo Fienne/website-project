@@ -7,6 +7,9 @@ import Carousel from "react-bootstrap/Carousel";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+//import helmet
+import { Helmet } from "react-helmet";
+
 //import components
 import RegButton from "../../Components/Button/RegButton";
 import Navigation from "../../Components/Navbar/Navigate";
@@ -24,6 +27,11 @@ const Home = () => {
 
   return (
     <div className="">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>My Title</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Carousel className="carousel">
         <Carousel.Item className="hero-carousel">
           <img

@@ -2,6 +2,13 @@
   border-radius: 30px;
 }
 
+.navbar-collapse{
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
 /* @media screen and (min-width: 1025px) {
   .contact-form {
     display: flex;
