@@ -269,7 +269,7 @@ const Home = () => {
               >
                 <Card.Body>
                   <img src="./Images/mailing.png" />
-                  <h3 className="card-title fw-bold mt-3">UX Design</h3>
+                  <h3 className="card-title fw-bold mt-3">Mailing</h3>
                   <hr />
                   <Card.Text>
                     We customize your emailing system, creating content that

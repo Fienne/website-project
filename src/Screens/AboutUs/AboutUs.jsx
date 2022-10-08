@@ -68,7 +68,7 @@ const AboutUs = () => {
                 </button>
               </Link>
             </div>
-            <div className="col-md-6 parent d-lg-none d-xl-block">
+            <div className="col-md-6 parent d-lg-none d-xl-block div-images">
               <img
                 src="./Images/image.jpg"
                 alt="DataGirl-Image"
