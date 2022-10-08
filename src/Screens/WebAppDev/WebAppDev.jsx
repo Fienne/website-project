@@ -2,6 +2,9 @@ import { Row, Col, Container, Card } from "react-bootstrap";
 import "./WebAppDev.css";
 import { Link } from "react-router-dom";
 
+//import helmet
+import { Helmet } from "react-helmet";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
