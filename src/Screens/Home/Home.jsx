@@ -115,7 +115,7 @@ const Home = () => {
       </div>
       <Container>
         <div className="middle-content" data-aos="zoom-in">
-          <h2 className="d-flex justify-content-center text-center fw-bolder brand-text">
+          <h2 className="d-flex justify-content-center text-center fw-bolder brand-text brand-text-1">
             A brand agency for ambitious young businesses
           </h2>
           <div className="d-flex justify-content-center">

@@ -344,8 +344,31 @@ svg {
     padding-left: 30px;
   }
 }
-@media (min-width: 480px) {
-  /* smartphones, Android phones, landscape iPhone */
+@media (min-width: 480px) and (max-width: 1000px) {
+  .phone-hero{
+    display: none;
+  }
+
+  .hero-heading{
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .hero-button-1{
+    border-radius: 30px;
+    height: 60px;
+    width: 160px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .brand-text-1{
+    padding-top: 30px;
+  }
+
+  .p-center{
+    text-align: center;
+  }
 }
 @media (min-width: 600px) and (max-width: 800px) {
   /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
