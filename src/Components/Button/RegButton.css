@@ -7,3 +7,6 @@ button{
     width: 120px;
 }
 
+.reg-button{
+    font-weight: bold;
+}

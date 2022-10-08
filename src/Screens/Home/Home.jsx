@@ -24,7 +24,6 @@ const Home = () => {
 
   return (
     <div className="">
-
       <Carousel className="carousel">
         <Carousel.Item className="hero-carousel">
           <img
@@ -38,7 +37,7 @@ const Home = () => {
                 Center for ICT <br /> and computer training in <br /> Cameroon
               </h3>
               <Link to="/about-us">
-                <button className="d-block hero-button-1">Get Started</button>
+                <button className="d-block hero-button-1">About us</button>
               </Link>
             </div>
           </Carousel.Caption>
@@ -99,11 +98,13 @@ const Home = () => {
           Center for ICT <br /> and computer training in <br /> Cameroon
         </h3>
         <Link to="/about-us">
-          <button className="d-block hero-button phone-button">Get Started</button>
+          <button className="d-block hero-button phone-button">
+            Get Started
+          </button>
         </Link>
       </div>
       <Container>
-        <div className="middle-content">
+        <div className="middle-content" data-aos="zoom-in">
           <h2 className="d-flex justify-content-center text-center fw-bolder brand-text">
             A brand agency for ambitious young businesses
           </h2>
@@ -123,23 +124,26 @@ const Home = () => {
         <div className="row center-content mt-5">
           <div className="col-md-6 parent-div">
             <img
+              data-aos="fade-right"
               src="./Images/one.jpg"
               alt="DataGirl-Image"
               className="image1-div img-fluid"
             />
             <img
+              data-aos="fade-left"
               src="./Images/two.jpg"
               alt="DataGirl-Image"
               className="image2-div img-fluid"
             />
 
             <img
+              data-aos="fade-up"
               src="./Images/three.jpg"
               alt="DataGirl-Image"
               className="image3-div img-fluid bounce-3"
             />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-up">
             <h3 className="fw-bold">
               Our goal is to create unique and digital experiences
             </h3>
@@ -309,8 +313,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6">
-          <img src="./Images/talking.jpeg" className="img-fluid w-100v talking-img" />
+        <div className="col-md-6" data-aos="fade-right">
+          <img
+            src="./Images/talking.jpeg"
+            className="img-fluid w-100v talking-img"
+          />
         </div>
       </div>
 
@@ -333,12 +340,19 @@ const Home = () => {
             <img className="img-fluid featured-img" src="./Images/biz.png" />
           </div>
           <div className="col-md-4">
-            <img className="img-fluid featured-img" src="./Images/disrupt.png" />
+            <img
+              className="img-fluid featured-img"
+              src="./Images/disrupt.png"
+            />
           </div>
         </div>
         <Row className="mt-3">
           <div className="mt-5 col-md-6">
-            <img src="./Images/img.jpg" className="img-fluid" />
+            <img
+              src="./Images/img.jpg"
+              className="img-fluid"
+              data-aos="fade-right"
+            />
           </div>
           <div className="mt-5 col-md-6 left-content">
             <h3 className="fw-bold">

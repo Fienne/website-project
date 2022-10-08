@@ -83,9 +83,9 @@ const Navigation = () => {
                 <NavDropdown.Item as={Link} to="/web-and-app-development">
                   Web and App Development
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/brand-identity">
+                {/* <NavDropdown.Item as={Link} to="/brand-identity">
                   Brand Identity
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
                 <NavDropdown.Item as={Link} to="/seo-services">
                   SEO Services
                 </NavDropdown.Item>

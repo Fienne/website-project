@@ -1,5 +1,8 @@
 import { Row, Col, Container, Card } from "react-bootstrap";
+import { useEffect } from "react";
 import "./GetTrained.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 //import components
 import Footer from "../../Components/Footer/Footer";
@@ -9,12 +12,20 @@ import CardComponent from "../../Components/Card/Card.components";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const GetTrained = () => {
+
+  useEffect(() => {
+    Aos.init({ duration: 3000 });
+  }, []);
+
   return (
     <div>
       <Container>
         <div className="row mt-2">
           <div className="col-md-6">
-            <h3 className="mt-5 trained-header" style={{ color: "var(--primary-color)" }}>
+            <h3
+              className="mt-5 trained-header"
+              style={{ color: "var(--primary-color)" }}
+            >
               Let Us Help You Build a Career in Tech
             </h3>
             <br />
@@ -32,7 +43,7 @@ const GetTrained = () => {
             <br />
             <RegButton title="Contact Us" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 seo-img bounce-1">
             <img
               src="./Images/Data extraction-amico.png"
               alt=""
@@ -41,8 +52,8 @@ const GetTrained = () => {
           </div>
         </div>
 
-        <div className="row">
-          <h2>Get Trained</h2>
+        <div className="row" data-aos="fade-in">
+          <h2 >Get Trained</h2>
           <CardComponent
             svg={
               <g data-name="programming-web-coding">
@@ -177,7 +188,7 @@ const GetTrained = () => {
         </div>
         <div className="mt-5">
           <div className="d-flex justify-content-center">
-            <h3> We Love What we do and who we do it for</h3>
+            <h3 className="text-bold"> We Love What we do and who we do it for</h3>
           </div>
         </div>
         <div className="d-flex justify-content-center">
@@ -225,7 +236,7 @@ const GetTrained = () => {
             <br />
             <br />
             <Col lg={8} md={12} className="d-flex justify-content-center">
-              <img src="./Images/dg3.jpeg" />
+              <img src="./Images/dg3.jpeg" data-aos="fade-right" />
             </Col>
           </Row>
         </div>
