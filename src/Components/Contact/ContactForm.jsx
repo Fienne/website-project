@@ -46,11 +46,6 @@ function ContactForm() {
     setMessage(e.target.value);
   };
 
-  // const getContacts = async() => {
-  //   const contacts = await axios.get(`${baseURL}/add-contact`)
-  //   setContactList(contacts.data);
-  // }
-
   const submit = async () => {
     const contact = await axios.post(`http://localhost:5000/add-contact`, {
       name,
@@ -103,12 +98,6 @@ function ContactForm() {
           >
             Contact us
           </h2>
-          {/* <p className="w-responsive mx-auto mb-5">
-            Do you have any questions? Please do not hesitate to contact us
-            directly. Our team will come back to you within a matter of hours to
-            help you.
-          </p> */}
-
           <form>
             <div className="row">
               <div className="col-md-6 mb-md-0 mb-5">
@@ -208,7 +197,6 @@ function ContactForm() {
           </div>
         </section>
       </Container>
-      <Newsletter />
     </div>
   );
 }
