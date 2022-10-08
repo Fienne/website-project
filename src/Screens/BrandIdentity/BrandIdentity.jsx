@@ -7,6 +7,7 @@ import RegButton from "../../Components/Button/RegButton";
 const BrandIdentity = () => {
   return (
     <div>
+
       <Container>
         <Row>
           <Col className="col-lg-6 col-sm-12">

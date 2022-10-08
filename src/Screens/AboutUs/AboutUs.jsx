@@ -1,6 +1,9 @@
 //import packages
 import { Link } from "react-router-dom";
 
+//import helmet
+import { Helmet } from "react-helmet";
+
 //import Styles
 import "./AboutUs.css";
 import { Container } from "react-bootstrap";
@@ -13,6 +16,19 @@ import Testimonial from "../../Components/Testimonial/Testimonial";
 const AboutUs = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Data Girl - About Us</title>
+        <link
+          rel="canonical"
+          href="https://datagirl-website-git-master-fienne.vercel.app/about-us"
+        />
+        <meta
+          name="description"
+          content="Data Girl's about us page. Showing the services they offer"
+        />
+        <meta property="og:title" content="Data Girl" />
+      </Helmet>
       <div
         style={{ height: "200px", background: "var(--primary-color)" }}
         className="contact-header"

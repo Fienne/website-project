@@ -4,6 +4,9 @@ import "./GetTrained.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+//import helmet
+import { Helmet } from "react-helmet";
+
 //import components
 import Footer from "../../Components/Footer/Footer";
 import RegButton from "../../Components/Button/RegButton";
@@ -12,13 +15,25 @@ import CardComponent from "../../Components/Card/Card.components";
 import Testimonial from "../../Components/Testimonial/Testimonial";
 
 const GetTrained = () => {
-
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
 
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Data Girl - Get Trained</title>
+        <link
+          rel="canonical"
+          href="https://datagirl-website-git-master-fienne.vercel.app/get-trained"
+        />
+        <meta
+          name="description"
+          content="Data Girl's Get Trained page. Showing the training services they offer"
+        />
+        <meta property="og:title" content="Data Girl" />
+      </Helmet>
       <Container>
         <div className="row mt-2">
           <div className="col-md-6">
@@ -53,7 +68,7 @@ const GetTrained = () => {
         </div>
 
         <div className="row" data-aos="fade-in">
-          <h2 >Get Trained</h2>
+          <h2>Get Trained</h2>
           <CardComponent
             svg={
               <g data-name="programming-web-coding">
@@ -188,7 +203,10 @@ const GetTrained = () => {
         </div>
         <div className="mt-5">
           <div className="d-flex justify-content-center">
-            <h3 className="text-bold"> We Love What we do and who we do it for</h3>
+            <h3 className="text-bold">
+              {" "}
+              We Love What we do and who we do it for
+            </h3>
           </div>
         </div>
         <div className="d-flex justify-content-center">

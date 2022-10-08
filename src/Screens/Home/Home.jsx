@@ -29,8 +29,10 @@ const Home = () => {
     <div className="">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>My Title</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <title>Data Girl - Home</title>
+        <link rel="canonical" href="https://datagirl-website-git-master-fienne.vercel.app/home" />
+        <meta name="description" content="Data Girl's home page. Showing the services they offer" />
+        <meta property="og:title" content="Data Girl" />
       </Helmet>
       <Carousel className="carousel">
         <Carousel.Item className="hero-carousel">

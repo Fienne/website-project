@@ -12,6 +12,19 @@ import Testimonial from "../../Components/Testimonial/Testimonial";
 const WebAppDev = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Data Girl - Web & App Development</title>
+        <link
+          rel="canonical"
+          href="https://datagirl-website-git-master-fienne.vercel.app/web-and-app-development"
+        />
+        <meta
+          name="description"
+          content="Data Girl's home page. Showing the Web and App Development services they offer"
+        />
+        <meta property="og:title" content="Data Girl" />
+      </Helmet>
       <Container>
         <Row>
           <div className="col-md-6">

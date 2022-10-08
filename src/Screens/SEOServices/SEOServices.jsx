@@ -2,12 +2,28 @@ import { Row, Col, Container, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./SEOServices.css";
 
+//import helmet
+import { Helmet } from "react-helmet";
+
 //import components
 import RegButton from "../../Components/Button/RegButton";
 
 const SEOServices = () => {
   return (
     <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Data Girl - SEO Services</title>
+        <link
+          rel="canonical"
+          href="https://datagirl-website-git-master-fienne.vercel.app/seo-services"
+        />
+        <meta
+          name="description"
+          content="Data Girl's home page. Showing theSEO services they offer"
+        />
+        <meta property="og:title" content="Data Girl" />
+      </Helmet>
       <Container>
         <Row>
           <div className="col-md-6 col-sm-12">
@@ -27,7 +43,11 @@ const SEOServices = () => {
             {/* <RegButton title="Get Started" /> */}
           </div>
           <div className="col-md-6 col-sm-12 seo-img bounce-1">
-            <img style={{ width: "100%" }} src="./Images/SEO-amico 1.png" className="seo-hero"/>
+            <img
+              style={{ width: "100%" }}
+              src="./Images/SEO-amico 1.png"
+              className="seo-hero"
+            />
           </div>
         </Row>
         <Row className="mt-3">
@@ -98,7 +118,17 @@ const SEOServices = () => {
                   </Card.Text>
                 </Card.Body>
                 <Link to="contact-us">
-                  <button className="left-button" style={{height:"40px", width:"150px", borderRadius:"40px"}}> Purchase Now</button>
+                  <button
+                    className="left-button"
+                    style={{
+                      height: "40px",
+                      width: "150px",
+                      borderRadius: "40px",
+                    }}
+                  >
+                    {" "}
+                    Purchase Now
+                  </button>
                 </Link>
               </Card>
             </Container>
