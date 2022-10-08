@@ -66,6 +66,70 @@ svg {
 }
 
 @media screen and (min-width: 1025px) {
+  .home-img1 {
+    align-self: flex-end;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+  }
+  .bounce-2 {
+    animation-name: bounce-2;
+    /* animation-timing-function: linear; */
+    animation-timing-function: ease-in;
+  }
+  @keyframes bounce-2 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(80px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  /* ...and then apply it: */
+  .home-img3 {
+    animation: slide-in ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+  }
+
+  .home-img2 {
+    align-self: flex-end;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+  }
+  .bounce-3 {
+    animation-name: slide-in;
+  }
+  @keyframes slide-in {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
   .carousel-1 {
     margin-top: 600px;
   }
@@ -219,7 +283,7 @@ svg {
     display: none;
   }
 
-  .p-center{
+  .p-center {
     text-align: center;
   }
 }
@@ -281,7 +345,7 @@ svg {
     padding-left: 60px;
   }
 
-  .first-content{
+  .first-content {
     padding-left: 30px;
   }
 }

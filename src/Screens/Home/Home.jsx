@@ -127,20 +127,20 @@ const Home = () => {
               data-aos="fade-right"
               src="./Images/one.jpg"
               alt="DataGirl-Image"
-              className="image1-div img-fluid"
+              className="image1-div img-fluid home-img1 bounce-2"
             />
             <img
               data-aos="fade-left"
               src="./Images/two.jpg"
               alt="DataGirl-Image"
-              className="image2-div img-fluid"
+              className="image2-div img-fluid home-img3"
             />
 
             <img
               data-aos="fade-up"
               src="./Images/three.jpg"
               alt="DataGirl-Image"
-              className="image3-div img-fluid bounce-3"
+              className="image3-div img-fluid home-img2 bounce-3"
             />
           </div>
           <div className="col-md-6" data-aos="fade-up">
