@@ -32,4 +32,13 @@
     .div-images{
       display: none;
     }
+    .about-div{
+      padding-bottom: 30px;
+    }
+    .about-content{
+      display: none;
+    }
+    .hr{
+      display: none;
+    }
   }

@@ -39,11 +39,11 @@ const AboutUs = () => {
             </p>
           </div>
         </div>
-        <hr />
+        <hr className="hr" />
         <br />
         <section className="mb-4">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 about-div">
               <h2>
                 <b>
                   We create smart products, web, branding, and mobile solutions

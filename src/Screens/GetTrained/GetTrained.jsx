@@ -23,7 +23,7 @@ const GetTrained = () => {
         <div className="row mt-2">
           <div className="col-md-6">
             <h3
-              className="mt-5 trained-header"
+              className="mt-5 trained-header fw-bold"
               style={{ color: "var(--primary-color)" }}
             >
               Let Us Help You Build a Career in Tech
