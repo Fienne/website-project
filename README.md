@@ -3,14 +3,13 @@
 My final project for the DataGirl Full Stack Web Development BootCamp.
 
 ## About the Project 
-This project is a clone of the existing Data Girl Technologies Website.
-The project is 
+This application is a clone of the existing Data Girl Technologies website.
+The application is built with ReactJS. It uses react-router-dom for its routing, CSS , AOS and Bootstrap for its syling and NodeJS, mongoDB and expressJS for its backend which is on another repository. React helmet library is used to improve SEO in the application. 
 
 ## Live Application URL
 
 The Application is deployed in https://datagirl-website-git-master-fienne.vercel.app/
 
-Click on the link to see the application
 
 ## Cloning and Running the Application in local
 
@@ -41,4 +40,8 @@ https://github.com/facebook/create-react-app
 
 **ReactJS** : Refer to https://reactjs.org/ to understand the concepts of ReactJS
 
-**React Bootstrap** : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
+**React Bootstrap** : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap  
+
+**AOS** : Refer to https://www.npmjs.com/package/aos to understand how to use AOS  
+
+**React Helmet** : Refer to https://www.npmjs.com/package/react-helmet to understand how to use React Helmet
